@@ -34,9 +34,9 @@ const Navbar = () => {
         }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Bhavyanth &nbsp;
-            <span className='sm:block hidden'> | PHOENIX</span>
+            <span className='sm:block hidden'> Kondapalli</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>

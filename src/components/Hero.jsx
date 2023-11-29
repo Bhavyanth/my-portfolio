@@ -14,9 +14,10 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}> Hi, I'm <span className="text-[#915eff]">Bhavyanth</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`} >
-            I design, develop, build web and desktop applications using Java, 
-            create environments on docker and deploy applications <br className="sm:block hidden" /> on cloud.
+          <p className={`${styles.heroSubText} mt-5 text-white-500`} >
+          I'm a passionate and results-driven software engineer with a strong background in Java, REST API development, 
+           Spring Boot and AWS. With over 4+ years of experience in the software industry, I've had the privilege <br className="sm:block hidden" />
+           of working on a wide range of projects and have honed my skills in various areas.
           </p>
         </div>
       </div>
