@@ -15,6 +15,7 @@ import {
     oracle,
     pgadmin,
     bitbucket,
+    graphql,
 
     play,
     music,
@@ -22,6 +23,8 @@ import {
     chat,
     firebase,
     wordpress,
+    microservices,
+    observability,
   } from "../assets";
   
   export const navLinks = [
@@ -138,6 +141,69 @@ import {
   
   const projects = [
     {
+      name: "Spring Microservices",
+      description:
+        "Advanced java application featuring spring boot microservices, spring security, discovery server, api gateway and many more!",
+      tags: [
+        {
+          name: "spring-boot",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "spring-security",
+          color: "green-text-gradient",
+        },
+        {
+          name: "spring-cloud",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: microservices,
+      source_code_link: "https://github.com/Bhavyanth/spring-microservices",
+    },
+    {
+      name: "Spring Graphql",
+      description:
+        "Application built on Spring and Graphql to understand the need and use of graphql",
+      tags: [
+        {
+          name: "spring-boot",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "graphql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "java",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: graphql,
+      source_code_link: "https://github.com/Bhavyanth/graphql-springboot",
+    },
+    {
+      name: "Spring Observability",
+      description:
+        "Application built on spring boot 3 and integrated with grafana, prometheus, docker and zipkin for observability and traceability.",
+      tags: [
+        {
+          name: "spring-boot",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "grafana",
+          color: "green-text-gradient",
+        },
+        {
+          name: "docker",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: observability,
+      source_code_link: "https://github.com/Bhavyanth/spring-observability",
+    },
+    {
       name: "Phoenix Play",
       description:
         "A simple application with movies built on react and graphql.",
@@ -156,7 +222,7 @@ import {
         },
       ],
       image: play,
-      source_code_link: "https://bitbucket.org/BhavyanthK/disney-clone/",
+      source_code_link: "https://github.com/Bhavyanth/phoenix-play/",
     },
     {
       name: "Phoenix Blog",
@@ -177,7 +243,7 @@ import {
         },
       ],
       image: blog,
-      source_code_link: "https://bitbucket.org/BhavyanthK/phoenix-graphcms/",
+      source_code_link: "https://github.com/Bhavyanth/phoenix-blog-cms/",
     },
     {
       name: "Phoenix Chat",

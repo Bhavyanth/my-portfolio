@@ -43,6 +43,9 @@ import firebase from "./projects/firebase-blog.png";
 import blog from "./projects/phoenix-blog.png";
 import music from "./projects/phoenix-music.png";
 import wordpress from "./projects/wordpress.png";
+import microservices from "./projects/spring-microservices.png";
+import graphql from "./projects/spring-graphql.png";
+import observability from "./projects/spring-observability.png";
 
 export {
   music,
@@ -84,5 +87,8 @@ export {
   java,
   oracle,
   pgadmin,
-  bitbucket
+  bitbucket,
+  microservices,
+  graphql,
+  observability
 };
